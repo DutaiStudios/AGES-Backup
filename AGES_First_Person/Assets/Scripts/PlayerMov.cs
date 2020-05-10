@@ -87,7 +87,7 @@ public class PlayerMov : MonoBehaviour
         }
         else if (playercam.phonesight == false)
         {
-
+            phonetut.text = "CheckCol";
         }
     }
     

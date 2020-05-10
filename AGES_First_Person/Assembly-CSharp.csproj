@@ -123,40 +123,40 @@
     <None Include="Assets\Fonts\binary.txt" />
     <None Include="Assets\PastProject pull\AssetPacks\Cartoon SportCar B01\Standard Assets\divers\VignettingShader.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -342,13 +342,13 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-Conversation1/AGES_Final-master/AGES_First_Person/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>G:/Classwork/AGES/GitHub/AGES Backup/AGES-Backup/AGES_First_Person/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

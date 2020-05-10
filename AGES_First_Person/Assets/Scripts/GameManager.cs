@@ -21,13 +21,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] Animation ScreenLook;
     [SerializeField] TitleAnimation titleanim;
     [SerializeField] GameObject ScreenGlow;
-
+    [SerializeField] PhoneScript pscript;
     [SerializeField] PlayerMov phonecheck;
 
     [SerializeField] AudioSource ringingphone;
     [SerializeField] AudioClip phoneringclip;
     [SerializeField] GameObject PhoneCamera;
     [SerializeField] bool phoneactive = false;
+    public bool gamepick = false;
 
     public bool ts = false;
     public bool doorauth = false;
@@ -43,7 +44,10 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-
+        if (gamepick == true)
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
         if (ts == true)
         {
             Sceneman();
@@ -57,6 +61,14 @@ public class GameManager : MonoBehaviour
 
         }
 
+        if (maincam.comsight == true)
+        {
+            if (Input.GetKeyDown("e"))
+            {
+                SceneManager.LoadScene("GameChoose");
+            }
+        }
+
         RingingPhone();
         Call1();
     }
@@ -68,6 +80,7 @@ public class GameManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.Confined;
         
     }
+
     
     void Sceneman()
   {
@@ -99,6 +112,16 @@ public class GameManager : MonoBehaviour
     {
         CreditsCanvas.SetActive(false);
         TitleScreen.SetActive(true);
+    }
+
+    public void SohoGame()
+    {
+        SceneManager.LoadScene("Opening Scene");
+    }
+
+    public void SciFiGame()
+    {
+        SceneManager.LoadScene("Game1");
     }
 
     void RingingPhone()
@@ -133,6 +156,7 @@ public class GameManager : MonoBehaviour
             PhoneCamera.SetActive(true);
             choicefreeze.SetActive(true);
             Cursor.lockState = CursorLockMode.Confined;
+            pscript.oncurcall = true;
         }
     }
 }
