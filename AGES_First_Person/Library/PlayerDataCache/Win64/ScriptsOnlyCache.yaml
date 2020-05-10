@@ -212,6 +212,55 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    Assets/Scenes/GameChoose.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9544}
+    - Class: 114
+      Script: {instanceID: 9546}
+    - Class: 114
+      Script: {instanceID: 9552}
+    - Class: 114
+      Script: {instanceID: 9558}
+    - Class: 114
+      Script: {instanceID: 9566}
+    - Class: 114
+      Script: {instanceID: 9602}
+    - Class: 114
+      Script: {instanceID: 9604}
+    - Class: 114
+      Script: {instanceID: 11328}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Opening Scene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -1066,7 +1115,7 @@ ScriptsOnlyBuild:
     className: Joystick
   - hash:
       serializedVersion: 2
-      Hash: 1633073309a6f0b1e1d779d69ff0a154
+      Hash: a52f5d509399defe2dbb25d56b2bc2dd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CamLook
@@ -1396,7 +1445,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: bda2f2f803f35cd090871bfedac3684e
+      Hash: 7c31ec000fcb3c2daba299983110075e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -1425,4 +1474,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Game1.unity
   - Assets/Scenes/SHArea1.unity
   - Assets/Scenes/Opening Scene.unity
-  playerPath: G:/Classwork/AGES/GitHub/AGES_Final/AGES_Final-master/AGES_First_Person/Builds/CursorTestBuild/AGES_First_Person.exe
+  - Assets/Scenes/GameChoose.unity
+  playerPath: G:/Classwork/AGES/Builds/M4/AGES_First_Person.exe
