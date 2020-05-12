@@ -382,6 +382,7 @@ MonoBehaviour:
   choi1: 0
   choi2: 0
   choi3: 0
+  curconv: 0
 --- !u!65 &548075524
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1878,7 +1879,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.3, y: 134}
+  m_AnchoredPosition: {x: 9.8, y: 138.4}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1302783906
@@ -3236,10 +3237,15 @@ PrefabInstance:
       propertyPath: playercam
       value: 
       objectReference: {fileID: 1401229019}
+    - target: {fileID: 8707151021250251212, guid: 4afacbdea5156d34990aba994d52c4dc,
+        type: 3}
+      propertyPath: Apartment1Scene
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8707151021250251203, guid: 4afacbdea5156d34990aba994d52c4dc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.76
+      value: -20.05
       objectReference: {fileID: 0}
     - target: {fileID: 8707151021250251203, guid: 4afacbdea5156d34990aba994d52c4dc,
         type: 3}
@@ -3249,7 +3255,7 @@ PrefabInstance:
     - target: {fileID: 8707151021250251203, guid: 4afacbdea5156d34990aba994d52c4dc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -24.9
+      value: 18.95
       objectReference: {fileID: 0}
     - target: {fileID: 8707151021250251203, guid: 4afacbdea5156d34990aba994d52c4dc,
         type: 3}
