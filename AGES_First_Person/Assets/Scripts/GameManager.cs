@@ -86,7 +86,7 @@ public class GameManager : MonoBehaviour
   {
         if (titleanim.collcheck == true)
      {
-         SceneManager.LoadScene("Apartment1");
+         SceneManager.LoadScene("BeginningDialogue");
      }
   }
     public void GameEnter()
