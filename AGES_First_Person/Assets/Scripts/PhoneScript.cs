@@ -14,6 +14,8 @@ public class PhoneScript : MonoBehaviour
     public bool choi2 = false;
     public bool choi3 = false;
     bool needschoice = false;
+    public int curconv = 1;
+    private int poschoice;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +33,22 @@ public class PhoneScript : MonoBehaviour
 
     void call()
     {
+        if (curconv == 1)
+        {
+            Conv1();
+        }
+        if (curconv == 2)
+        {
 
+        }
+        if (curconv == 3)
+        {
+
+        }
+        if (curconv == 4)
+        {
+
+        }
     }
 
     public void ChooseA()
@@ -49,6 +66,16 @@ public class PhoneScript : MonoBehaviour
     public void ChooseC()
     {
         choi3 = true;
+    }
+
+    void ChoiceReset()
+    {
+
+    }
+
+    void Conv1()
+    {
+
     }
 
 }

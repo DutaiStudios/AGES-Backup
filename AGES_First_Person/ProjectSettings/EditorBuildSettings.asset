@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameChoose.unity
     guid: 0cfab5214ebcc5348bcb3f1b77d1a16a
+  - enabled: 1
+    path: Assets/Scenes/BeginningDialogue.unity
+    guid: 75afffd2c99b5e54d89b02ab5ff4799b
   m_configObjects: {}

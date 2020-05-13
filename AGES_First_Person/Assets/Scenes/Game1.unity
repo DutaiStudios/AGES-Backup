@@ -7480,11 +7480,13 @@ MonoBehaviour:
   ScreenLook: {fileID: 0}
   titleanim: {fileID: 0}
   ScreenGlow: {fileID: 0}
+  pscript: {fileID: 0}
   phonecheck: {fileID: 0}
   ringingphone: {fileID: 0}
   phoneringclip: {fileID: 0}
   PhoneCamera: {fileID: 0}
   phoneactive: 0
+  gamepick: 0
   ts: 0
   doorauth: 0
   choicealarm: 0

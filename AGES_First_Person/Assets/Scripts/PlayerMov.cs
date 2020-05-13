@@ -19,6 +19,8 @@ public class PlayerMov : MonoBehaviour
     [SerializeField] Text phonetut;
     public bool onphone = false;
 
+    public bool Apartment1Scene = false;
+
     private void Start()
     {
         truespeed = speed;
@@ -27,9 +29,13 @@ public class PlayerMov : MonoBehaviour
     }
     void Update()
     {
+        if (Apartment1Scene == true)
+        {
         PhonePickup();
         countdown++;
         PhoneRing();
+        }
+
         if (canmove == true)
         {
 

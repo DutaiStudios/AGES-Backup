@@ -108,6 +108,7 @@
     <Compile Include="Assets\Scripts\PhoneScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMov.cs" />
     <Compile Include="Assets\Scripts\PlayerTrigger.cs" />
+    <Compile Include="Assets\Scripts\Prologue.cs" />
     <Compile Include="Assets\Scripts\TextManager.cs" />
     <Compile Include="Assets\Scripts\TitleAnimation.cs" />
     <Compile Include="Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
