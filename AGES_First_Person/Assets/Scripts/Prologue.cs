@@ -9,21 +9,31 @@ public class Prologue : MonoBehaviour
     [SerializeField] Text maintext;
     [SerializeField] Text ButtonA;
     [SerializeField] Text ButtonB;
+    [SerializeField] Text DayText;
 
     public int choicepick;
     private bool opset = false;
     public bool ChoiceAPick;
     public bool ChoiceBPick;
+    private int Day;
 
     void Start()
     {
-        
+        Day = 0;
     }
-
 
     void Update()
     {
-        PrologueText();
+        DayText.text = "Day " + Day;
+        if (Day == 0)
+        {
+            PrologueText();
+        }
+        if (Day == 1)
+        {
+            Day1();
+        }
+
     }
 
     void PrologueText()
@@ -58,6 +68,10 @@ public class Prologue : MonoBehaviour
             ButtonB.text = "Fall back asleep.";
         }
 
+        if (choicepick == 3)
+        {
+            Day1();
+        }
 
 
     }
@@ -83,7 +97,13 @@ public class Prologue : MonoBehaviour
     void Day1()
     {
         ChoiceReset();
+        Day = 1;
+        maintext.text = "There is a siren outside. It waxes and wanes throughout the day; moments of silence are scarce. The daytime sun has done nothing to stave the winter chill, the thermostat, a beige box on an empty wall, hung precariously. You don't dare touch it.";
+        ButtonA.text = "Watch the news.";
+        ButtonB.text = "Call a friend.";
 
-
+        
     }
+
+
 }
