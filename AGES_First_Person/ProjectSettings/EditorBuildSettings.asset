@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: 7022bc4ffb0d1c543b0e64e1eb9a81bf
   - enabled: 1
+    path: Assets/Scenes/BeginningDialogue.unity
+    guid: 75afffd2c99b5e54d89b02ab5ff4799b
+  - enabled: 1
     path: Assets/Scenes/Apartment1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -24,6 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/GameChoose.unity
     guid: 0cfab5214ebcc5348bcb3f1b77d1a16a
   - enabled: 1
-    path: Assets/Scenes/BeginningDialogue.unity
-    guid: 75afffd2c99b5e54d89b02ab5ff4799b
+    path: Assets/Scenes/GoToPlay.unity
+    guid: 55fa4165909bf2e4fbc85d52ac23960c
   m_configObjects: {}

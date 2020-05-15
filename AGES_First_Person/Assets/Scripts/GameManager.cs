@@ -33,6 +33,8 @@ public class GameManager : MonoBehaviour
     public bool ts = false;
     public bool doorauth = false;
 
+    [SerializeField] Phonecall1 pc1;
+    [SerializeField] GameObject pcallmen;
     public bool choicealarm = false;
 
     void Start()
@@ -156,6 +158,20 @@ public class GameManager : MonoBehaviour
             PhoneCamera.SetActive(true);
             choicefreeze.SetActive(true);
             Cursor.lockState = CursorLockMode.Confined;
+            pscript.oncurcall = true;
+        }
+
+        if (pc1.callended == true)
+        {
+            pmov.canmove = true;
+            phonetext.SetActive(false);
+            maincam.canlook = true;
+            ScreenGlow.SetActive(false);
+            playercamera.SetActive(true);
+            PhoneCamera.SetActive(false);
+            pcallmen.SetActive(false);
+            choicefreeze.SetActive(false);
+            Cursor.lockState = CursorLockMode.None;
             pscript.oncurcall = true;
         }
     }
