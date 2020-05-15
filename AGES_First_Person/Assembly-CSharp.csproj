@@ -105,6 +105,7 @@
     <Compile Include="Assets\Scripts\CamLook.cs" />
     <Compile Include="Assets\Scripts\DoorProxy.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Phonecall1.cs" />
     <Compile Include="Assets\Scripts\PhoneScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMov.cs" />
     <Compile Include="Assets\Scripts\PlayerTrigger.cs" />

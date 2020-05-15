@@ -387,7 +387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &698577433
 RectTransform:
   m_ObjectHideFlags: 0
@@ -623,7 +623,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &792679293
 RectTransform:
   m_ObjectHideFlags: 0
@@ -755,7 +755,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &820006824
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1073,6 +1073,7 @@ MonoBehaviour:
   ScreenLook: {fileID: 0}
   titleanim: {fileID: 0}
   ScreenGlow: {fileID: 0}
+  pscript: {fileID: 0}
   phonecheck: {fileID: 0}
   ringingphone: {fileID: 0}
   phoneringclip: {fileID: 0}
@@ -1081,6 +1082,8 @@ MonoBehaviour:
   gamepick: 1
   ts: 0
   doorauth: 0
+  pc1: {fileID: 0}
+  pcallmen: {fileID: 0}
   choicealarm: 0
 --- !u!4 &1304486507
 Transform:
@@ -1114,7 +1117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1459214095
 RectTransform:
   m_ObjectHideFlags: 0
